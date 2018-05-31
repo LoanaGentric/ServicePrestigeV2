@@ -12,7 +12,7 @@ let i = 0
         i = 0
       }
       console.log(i)
-    },26000)
+    },4000)
 
 
 //intervalID = window.setInterval(mouvement(i),1000)
