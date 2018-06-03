@@ -5,7 +5,7 @@ body{
 }
 
 h2{
-  font-size: 2.3em;
+  font-size: 2.1em;
 }
 
 p{
@@ -19,18 +19,11 @@ h3{
 
 a{
   text-decoration: none;
+  color: #000;
 }
 
-.container{
-  padding:0;
-  margin:0;
-
-  top:0;
-  left:0;
-
-  width: 100%;
-  height: 11314px;
-  background:rgba(255,255,255,0.5);
+li{
+  font-size: 0.8em;
 }
 /*
 ---------------------------------- PAGE 1 ------------------------------
@@ -49,39 +42,92 @@ a{
   height: 800px;
   background-image: url(../images/Accueil.jpg);
   background-repeat: no-repeat;
-  background-size:auto 800px;
+  background-size:auto 820px;
 }
 
+/* --- HEADER PAGE 1 --- */
+
+
+header{
+  z-index: 2;
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+
+  width: 100%;
+  height: 80px;
+  background:#ffffff;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul.left{
+  display: flex;
+  padding: 0;
+}
+
+nav ul li:hover{
+  text-decoration: underline;
+}
+
+nav ul.right{
+  display: flex;
+  padding: 0;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+
+}
+
+img.logo{
+  height: 70px;
+  text-align: center;
+}
+
+/* --- CONTENU PRINCIPAL PAGE 1 --- */
+
 .contentPage1{
+  padding-top: 90px;
+}
+
+img.lang{
+  width: 20px;
+}
+
+img.lang:first-of-type{
+  margin-left: 20px;
+}
+
+.contentLosange{
   display: flex;
   justify-content: flex-end;
   padding-top: 5%;
   padding-right: 20%;
 }
 
-a{
-  text-decoration: none;
-}
-
 h1{
   text-align: center;
-  font-size: 2.6em;
-  padding-top: 50px;
+  font-size: 2.5em;
   text-transform: uppercase;
-  padding-top: 100px;
   color: white;
-  font-weight: 800;
-  font-family: 'Roboto', sans-serif;
 }
 
 .bigLosange{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 320px;
-  width: 320px;
-  height: 290px;
-  width: 290px;
+  height: 250px;
+  width: 250px;
 
   background: white;
   border:2px solid black;
@@ -97,71 +143,23 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 280px;
-    width: 280px;
-    height: 240px;
-    width: 240px;
+    height: 220px;
+    width: 220px;
     background: white;
     border:1px solid black;
 }
 
 .losange h2{
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.3em;
+  font-size: 1.9em;
   color: #000;
-  font-size: 2.2em;
   -ms-transform: rotate(-45deg); /* Internet Explorer */
   -moz-transform: rotate(-45deg); /* Firefox */
   -webkit-transform: rotate(-45deg); /* Safari et Chrome */
   -o-transform: rotate(-45deg); /* Opera */
 }
 
-
-header{
-  z-index: 2;
+ul.lang{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position:fixed;
-  padding:0;
-  margin:0;
-
-  top:0;
-  left:0;
-
-  width: 100%;
-  height: 70px;
-  background:#ffffff;
-}
-
-header nav.left{
-  display: flex;
-  justify-content: flex-start;
-
-  top:0;
-  left:0;
-}
-
-header nav ul:hover{
-  text-decoration: underline;
-}
-
-header nav.right{
-  display: flex;
-  justify-content: flex-end;
-
-  top:0;
-  left:0;
-}
-
-header nav ul{
-  margin: 0;
-  padding: 10px;
-  font-family: 'Roboto', sans-serif;
-}
-header img{
-  height: 70px;
-  text-align: center;
 }
 
 /*
@@ -243,23 +241,15 @@ header img{
   border:1px solid #fff;
 }
 
-a{
-  margin: 30px;
-}
 
 /*
 --------------------------------- PAGE 3 --------------------------------
 */
 
-
 #page3{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  z-index: 1;
-  padding:0;
-  margin:0;
-  margin-top: 90px;
 
   width: 100%;
   height: 800px;
@@ -268,10 +258,11 @@ a{
 
 .titlePage3 {
   text-align: center;
+  margin-top: 20px;
 }
 
 .articlePage3 {
-  margin-top: 60px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
@@ -279,18 +270,13 @@ a{
 .articlePage3 img {
   width: 50%;
   object-fit: cover;
-  height: 490px;
+  height: 50%;
 }
 
 .articlePage3 div {
   width: 40%;
   padding: 0 149px;
   text-align: center;
-}
-
-.articlePage3 h3 {
-  font-size: 40px;
-
 }
 
 .articlePage3 p {
@@ -357,7 +343,6 @@ a{
   margin:0;
 
   width: 100%;
-  height: 1500px;
   background: #fff;
 }
 
@@ -365,7 +350,7 @@ a{
 .titr{
   width : 600px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 60px;
   text-align: center;
 }
 
@@ -491,6 +476,100 @@ div.voitureSlider{
 }
 
 /*
+---------------------------------- PAGE8 ------------------------------
+*/
+
+#page8{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+  padding:0;
+  margin:0;
+
+  width: 100%;
+  height: 800px;
+  background: #000;
+
+}
+
+.containerPolitic {
+  width: 85%;
+  height: 85%;
+  text-align: center;
+  margin: auto;
+
+  color: #fff;
+}
+
+#page8 h2{
+  margin-top: 20px;
+}
+#page8 h3{
+  font-style: italic;
+}
+
+svg{
+  width: 8%;
+  position: absolute;
+}
+
+#square1, #square2, #titress{
+  position: relative;
+  padding-left: %;
+  margin-bottom: -3%
+}
+
+#square1{
+  padding-right: 4%;
+  margin-top: -2%
+}
+
+#square2{
+  padding-left: 4%;
+  margin-top: -2%;
+}
+
+.title_eco{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#poldescription{
+  margin: 0 auto;
+  width: 52%;
+  text-align: justify;
+  font-size: 0.8em;
+}
+
+#polblock
+{
+  padding-top: 2%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+  font-size: 0.8em;
+  line-height: 2em
+}
+
+#polblock p:first-child{
+  text-decoration: underline;
+}
+
+#citation{
+  font-style: italic;
+  font-size: 1.2em;
+  padding-top: 2%
+}
+
+.square{
+  width: 1.5%;
+  position: absolute;
+  margin-left: -3%;
+}
+
+/*
 ---------------------------------- PAGE9 ------------------------------
 */
 #page9{
@@ -525,6 +604,86 @@ div.voitureSlider{
 form{
   display: flex;
   flex-direction: column;
+}
+
+/*
+---------------------------------- FOOTER ------------------------------
+*/
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+ footer .grostext{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+.precis{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ .trait{
+   width: 76px;
+   height: 2px;
+   background-color: #ffffff;
+ }
+footer .footer {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+footer .footer section {
+  max-width: 300px;
+  min-width: 300px;
+}
+
+footer span {
+  font-size: 21px;
+  letter-spacing: 3px;
+  line-height: 67px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer .partenaires p {
+  display: block;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
+footer .infos .liens {
+  display: flex;
+  flex-direction: row;
+}
+
+
+footer .informations a {
+  display: flex;
+  justify-content: center;
+  text-align : justify;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.liens img{
+  height: 60px;
 }
 
 /*
