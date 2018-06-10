@@ -14,34 +14,42 @@
           PREMIERE PAGE
 
     -->
-      <div class="page1">
+      <div id="page1">
         <!-- HEADER -->
         <header>
-          <nav>
-            <ul class="left">
-              <li><a href="#page2">NOTRE EXPERTISE</a></li>
-              <li><a href="#page3">LE CDS</a></li>
-              <li><a href="#page4">L'ÉQUIPE</a></li>
-              <li><a href="#page5">CHARTE QUALITÉ</a></li>
-            </ul>
-            <img class="logo" src="images/logo.png" alt="logo Service Prestige Developpement"/>
-            <ul class="right">
-              <li><a href="#page6">CONDITIONS</a></li>
-              <li><a href="#page7">VÉHICULES</a></li>
-              <li><a href="#page8">POLITIQUE ÉCOLOGIQUE</a></li>
-              <li><a href="#page9">CONTACT</a></li>
-            </ul>
-          </nav>
+          <div id="hamburger">
+            <div id="hamburger-content">
+              <nav>
+                <ul>
+                  <li><a href="#page2">NOTRE EXPERTISE</a></li>
+                  <li><a href="#page3">LE CDS</a></li>
+                  <li><a href="#page4">L'ÉQUIPE</a></li>
+                  <li><a href="#page5">CHARTE QUALITÉ</a></li>
+                  <li><a href="#page1"><img class="logo" src="images/logo.png" alt="logo Service Prestige Developpement"/></a></li>
+                  <li><a href="#page6">CONDITIONS</a></li>
+                  <li><a href="#page7">VÉHICULES</a></li>
+                  <li><a href="#page8">POLITIQUE ÉCOLOGIQUE</a></li>
+                  <li><a href="#page9">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+            <button id="hamburger-button"><img class="menuHamburger" src="images/hamburger.png" alt="menuHamburger"/></button>
+            <div id="hamburger-sidebar">
+              <div id="hamburger-sidebar-header"></div>
+              <div id="hamburger-sidebar-body"></div>
+            </div>
+            <div id="hamburger-overlay"></div>
+          </div>
         </header>
 
-        <!-- PAGE 1 -->
+        <!-- PAGE 1 CONTENU -->
 
         <div class="contentPage1">
 
           <a href="#"><img class="lang" src="images/fr.png" alt="FR"/>
           <a href="#"><img class="lang" src="images/eng.png" alt="EN"/>
 
-          <h1>Bienvenue chez </br> <strong>Service Prestige Developpement</strong></h1>
+          <h1>Bienvenue chez </br> Service Prestige Developpement</h1>
           <div class="contentLosange">
             <div class="bigLosange">
               <div class="losange">
@@ -128,38 +136,40 @@ national et bien plus encore.</p>
         <article class="perf">
 
           <div class="titr">
-            <h2> Notre charte qualité </h2>
-            <h3>« Nos équipes et l’ensemble du réseau sont soumis à une charte qualité rigoureuse, garante de la maitrise d’un savoir-faire éprouvé auprès d’une clientèle haut de gamme. »</h3>
+            <svg id="square1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.73 80.82"><defs><style>.cls-1,.cls-3{fill:none;stroke:#50904b;stroke-miterlimit:10;}.cls-2{fill:#50904b;}.cls-3{stroke-width:3px;}</style></defs><title>gauche</title><rect class="cls-1" x="8.14" y="22.09" width="35.91" height="35.91" transform="translate(-20.67 30.18) rotate(-45)"/><rect class="cls-2" x="16.15" y="30.09" width="19.9" height="19.9" transform="translate(-20.67 30.18) rotate(-45)"/><rect class="cls-1" x="102.7" y="12.34" width="56.15" height="56.15" transform="translate(9.73 104.31) rotate(-45)"/><rect class="cls-2" x="115.21" y="24.86" width="31.11" height="31.11" transform="translate(9.72 104.3) rotate(-45)"/><line class="cls-3" x1="210.5" y1="40.41" x2="338.73" y2="40.41"/></svg>
+            <h2> NOTRE CHARTE QUALITÉ </h2>
+            <svg id="square2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.3 80.82"><defs><style>.cls-1,.cls-3{fill:none;stroke:#50904b;stroke-miterlimit:10;}.cls-2{fill:#50904b;}.cls-3{stroke-width:3px;}</style></defs><title>droit</title><rect class="cls-1" x="8.14" y="22.09" width="35.91" height="35.91" transform="translate(146.44 30.18) rotate(-45)"/><rect class="cls-2" x="16.15" y="30.09" width="19.9" height="19.9" transform="translate(146.44 30.18) rotate(-45)"/><rect class="cls-1" x="102.7" y="12.34" width="56.15" height="56.15" transform="translate(176.84 104.31) rotate(-45)"/><rect class="cls-2" x="115.21" y="24.86" width="31.11" height="31.11" transform="translate(176.83 104.3) rotate(-45)"/><line class="cls-3" y1="40.41" x2="128.23" y2="40.41"/></svg>
+            <h3>« Nos équipes et l’ensemble du réseau sont soumis à une <strong>charte qualité rigoureuse</strong>, garante de la maitrise d’un <strong>savoir-faire éprouvé</strong> auprès d’une clientèle haut de gamme. »</h3>
           </div>
 
           <div class="chart">
 
             <div class="first">
               <img src="images/1.jpg" alt="première photo">
-              <p>La qualité est la clé de voute de notre réseau, seul réseau haut de gamme structuré présent en France et volontairement élitiste. Tout prétendant à l’affiliation avec notre centrale, s’engage à respecter rigoureusement tous les points notifiés dans notre charte qualité. De manière générale, un bon niveau d’anglais et un certain nombre d’années d’expérience sont requis pour prétendre à exécuter des missions de transport confiées par la centrale.</p>
+              <p>La <strong>qualité</strong> est la clé de voute de notre <strong>réseau</strong>, seul réseau <strong>haut de gamme structuré</strong> présent en France et volontairement <strong>élitiste</strong>. Tout prétendant à l’affiliation avec notre centrale, s’engage à respecter rigoureusement tous les points notifiés dans notre <strong>charte qualité</strong>. De manière générale, un <strong>bon niveau d’anglais</strong> et un <strong>certain nombre d’années d’expérience</strong> sont requis pour prétendre à exécuter des missions de transport confiées par la centrale.</p>
             </div>
 
             <div class="second">
-              <p>Un test chauffeur doit être systématiquement passé et validé pour toute entreprise (ou l’un de ses chauffeurs) afin de garantir aux autres affiliés que les compétences minima requises sont bien respectées.</p>
+              <p>Un <strong>test chauffeur</strong> doit être systématiquement <strong>passé et validé</strong> pour toute entreprise (ou l’un de ses chauffeurs) afin de garantir aux autres affiliés que les <strong>compétences minima requises</strong> sont bien respectées.</p>
               <img src="images/2.jpg" alt="deuxième photo">
             </div>
 
             <div class="third">
               <img src="images/3.jpg" alt="troisième photo">
-              <p>Des contrôles terrain sont organisés quotidiennement pour assurer un niveau de prestation constant. L’excellence à un coût et le premier est d’être capable de se remettre en question quand des défauts sont pointés par nos contrôleurs qualité. Le seul objectif poursuivi par la centrale est de maintenir un niveau de service fidèle à la marque et d’assurer aux affiliés donneurs d’ordres de disposer de toutes les garanties qualité quand ils confient leurs clients aux bons soins de leurs co-affiliés.  </p>
+              <p>Des <strong>contrôles terrain</strong> sont organisés quotidiennement pour assurer un <strong>niveau de prestation constant</strong>. <strong>L’excellence</strong> à un coût et le premier est d’être capable de se <strong>remettre en question</strong> quand des défauts sont pointés par nos contrôleurs qualité. Le <strong>seul objectif</strong> poursuivi par la centrale est de <strong>maintenir un niveau de service fidèle</strong> à la marque et d’<strong>assurer</strong> aux affiliés donneurs d’ordres de <strong>disposer de toutes les garanties qualité</strong> quand ils confient leurs clients aux bons soins de leurs co-affiliés.  </p>
             </div>
 
           </div>
 
           <div class="last">
-            <p>Plus nos affiliés sont performants, plus nous sommes en mesure de nous positionner, tous ensemble, sur les grands marchés et les grands événements de l’histoire.</p>
+            <p>Plus nos <strong>affiliés </strong>sont <strong>performants</strong>, plus nous sommes en mesure de nous <strong>positionner</strong>, tous ensemble, sur les <strong>grands marchés et les grands événements de l’histoire.</strong></p>
             <p class="bold">Assurément la Qualité est notre maître mot…</p>
           </div>
         </article>
       </div>
 
       <div id="page7">
-        <h2>Véhicules acceptés</h2>
+        <h2>VÉHICULES ACCEPTÉS</h2>
 
         <div class="contentPage7">
           <h3 id="nomVoiture">Tesla X</h3>
@@ -186,7 +196,7 @@ national et bien plus encore.</p>
           <div class="politique">
             <div class="title_eco">
             <svg id="square1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.73 80.82"><defs><style>.cls-1,.cls-3{fill:none;stroke:#50904b;stroke-miterlimit:10;}.cls-2{fill:#50904b;}.cls-3{stroke-width:3px;}</style></defs><title>gauche</title><rect class="cls-1" x="8.14" y="22.09" width="35.91" height="35.91" transform="translate(-20.67 30.18) rotate(-45)"/><rect class="cls-2" x="16.15" y="30.09" width="19.9" height="19.9" transform="translate(-20.67 30.18) rotate(-45)"/><rect class="cls-1" x="102.7" y="12.34" width="56.15" height="56.15" transform="translate(9.73 104.31) rotate(-45)"/><rect class="cls-2" x="115.21" y="24.86" width="31.11" height="31.11" transform="translate(9.72 104.3) rotate(-45)"/><line class="cls-3" x1="210.5" y1="40.41" x2="338.73" y2="40.41"/></svg>
-            <h2 id="titress">Notre Charte Écologique</h2>
+            <h2 id="titress">NOTRE CHARTE ÉCOLOGIQUE</h2>
             <svg id="square2" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.3 80.82"><defs><style>.cls-1,.cls-3{fill:none;stroke:#50904b;stroke-miterlimit:10;}.cls-2{fill:#50904b;}.cls-3{stroke-width:3px;}</style></defs><title>droit</title><rect class="cls-1" x="8.14" y="22.09" width="35.91" height="35.91" transform="translate(146.44 30.18) rotate(-45)"/><rect class="cls-2" x="16.15" y="30.09" width="19.9" height="19.9" transform="translate(146.44 30.18) rotate(-45)"/><rect class="cls-1" x="102.7" y="12.34" width="56.15" height="56.15" transform="translate(176.84 104.31) rotate(-45)"/><rect class="cls-2" x="115.21" y="24.86" width="31.11" height="31.11" transform="translate(176.83 104.3) rotate(-45)"/><line class="cls-3" y1="40.41" x2="128.23" y2="40.41"/></svg>
             </div>
             <h3>Service Prestige Développement s’engage pour l’environnement.</h3>
