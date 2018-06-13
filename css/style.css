@@ -44,7 +44,7 @@ li{
 }
 /* --------------------- MENU HAMBURGER --------------------- */
 
-#hamburger, #hamburger-content {
+#hamburger-content {
   display: inline;
 }
 
@@ -813,7 +813,10 @@ h1{
 }
 
 
-@media screen and (max-width: 768px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
   #hamburger-content {
       display: none;
   }
@@ -836,6 +839,12 @@ h1{
   }
 
   /* --- PAGE 1 ---*/
+
+  #page1{
+    background-image: url(../images/Accueil.jpg);
+    background-repeat: no-repeat;
+    background-size:auto 2500px;
+  }
 
   h1{
     font-size: 1.5em;
@@ -860,11 +869,13 @@ h1{
     font-size: 1.5em;
   }
 
+
 /* --- ALL PAGES --- */
 
 #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9{
-  height: 812px;
-  width: 375px;
+  height: 2500px;
+  width: 1280px;
 }
+
 
 }
