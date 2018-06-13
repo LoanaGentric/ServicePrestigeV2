@@ -45,8 +45,7 @@ li{
 /* --------------------- MENU HAMBURGER --------------------- */
 
 #hamburger-content {
-  display: flex;
-  flex-direction: row;
+  display: inline;
 }
 
 #hamburger-button{
