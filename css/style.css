@@ -677,6 +677,7 @@ form{
 footer {
   background-color: #000000;
   color: #FFFFFF;
+  width: 1274px;
 }
 
  footer .grostext{
@@ -758,9 +759,10 @@ footer .informations a {
 ---------------------------------- RESPONSIVE ------------------------------
 */
 
-@media screen
-  and (min-width: 768px)
-  and (max-width: 1180px){
+/* ------------------------------- IPADS ------------ */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
 
 /* --- HAMBURGER MENU --- */
 
@@ -788,30 +790,44 @@ footer .informations a {
 /* --- PAGE 1 ---*/
 
 h1{
-  font-size: 1.5em;
+  font-size: 2.2em;
 }
 
 .contentLosange{
   justify-content: center;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 .bigLosange{
-  height: 200px;
-  width: 200px;
+  height: 280px;
+  width: 280px;
 }
 
 .losange {
-    height: 180px;
-    width: 180px;
+    height: 230px;
+    width: 230px;
 }
 
 .contentLosange h2{
-  font-size: 1.5em;
+  font-size: 2.0em;
+}
+
+/* --- ALL PAGES --- */
+
+#page1{
+  background-image: url(../images/Accueil.jpg);
+  background-repeat: no-repeat;
+  background-size:auto 948px;
+}
+
+#page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9{
+  height: 948px;
+  width: 1280px;
 }
 
 }
 
+/* ----------------- IPHONES 6/7/8 --------------- */
 
 @media only screen
 and (min-device-width : 365px)
@@ -843,31 +859,32 @@ and (max-device-width : 667px) {
     background-image: url(../images/Accueil.jpg);
     background-repeat: no-repeat;
     background-size:auto 2280px;
+    background-position: center
   }
 
   h1{
-    font-size: 1.5em;
+    margin-top: 300px;
+    font-size: 4.1em;
   }
 
   .contentLosange{
     justify-content: center;
     padding: 0;
-    margin-top: 80px;
+    margin-top: 380px;
   }
   .bigLosange{
-    height: 200px;
-    width: 200px;
+    height: 560px;
+    width: 560px;
   }
 
   .losange {
-      height: 180px;
-      width: 180px;
+      height: 480px;
+      width: 480px;
   }
 
   .contentLosange h2{
-    font-size: 1.5em;
+    font-size: 3.6em;
   }
-
 
 /* --- ALL PAGES --- */
 
