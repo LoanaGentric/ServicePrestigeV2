@@ -834,7 +834,7 @@ h1{
   img.logo{
     display: none;
   }
-  
+
   /* --- PAGE 1 ---*/
 
   h1{
@@ -859,4 +859,12 @@ h1{
   .contentLosange h2{
     font-size: 1.5em;
   }
+
+/* --- ALL PAGES --- */
+
+#page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9{
+  height: 812px;
+  width: 375px;
+}
+
 }
