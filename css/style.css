@@ -677,6 +677,7 @@ form{
 footer {
   background-color: #000000;
   color: #FFFFFF;
+  width: 1274px;
 }
 
  footer .grostext{
@@ -824,10 +825,6 @@ h1{
   width: 1280px;
 }
 
-footer{
-  width: 1274px;
-}
-
 }
 
 /* ----------------- IPHONES 6/7/8 --------------- */
@@ -862,31 +859,32 @@ and (max-device-width : 667px) {
     background-image: url(../images/Accueil.jpg);
     background-repeat: no-repeat;
     background-size:auto 2280px;
+    background-position: center
   }
 
   h1{
-    font-size: 1.5em;
+    margin-top: 300px;
+    font-size: 4.1em;
   }
 
   .contentLosange{
     justify-content: center;
     padding: 0;
-    margin-top: 80px;
+    margin-top: 380px;
   }
   .bigLosange{
-    height: 200px;
-    width: 200px;
+    height: 560px;
+    width: 560px;
   }
 
   .losange {
-      height: 180px;
-      width: 180px;
+      height: 480px;
+      width: 480px;
   }
 
   .contentLosange h2{
-    font-size: 1.5em;
+    font-size: 3.6em;
   }
-
 
 /* --- ALL PAGES --- */
 
