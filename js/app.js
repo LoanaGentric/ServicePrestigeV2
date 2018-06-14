@@ -1,6 +1,9 @@
-let carImage = ["images/teslaX.jpg", "images/teslaS.png", "images/mercedesClasseE.jpg", "images/mercedesClasseS.png", "images/mercedesClasseV.jpg", "images/mercedesGLE.png", "images/audiA6.png", "images/audiA8.png", "images/bmwSerie5.jpeg", "images/bmwSerie7.png", "images/rangeRover.jpg"]
+let carImage = ["images/cars/teslaX.png", "images/cars/teslaS.png", "images/cars/mercedesClasseE.png", "images/cars/mercedesClasseS.png", "images/cars/mercedesClasseV.png", "images/cars/mercedesGLE.png", "images/cars/audiA6.png", "images/cars/audiA8L.png", "images/cars/bmwSerie5.png", "images/cars/bmwSerie7.png", "images/cars/rangeRover.png"]
 
 let carName = ["Tesla X", "Tesla S", "Mercedes Classe E", "Mercedes Classe S", "Mercedes Class V", "Mercedes GLE", "Audi A6", "Audi A8", "BMW Série 5", "BMW Série 7", "RANGE ROVER"]
+
+
+// slider début
 
 let i = 0
 
@@ -12,7 +15,7 @@ let i = 0
         i = 0
       }
       console.log(i)
-    },26000)
+    },3000)
 
 
 //intervalID = window.setInterval(mouvement(i),1000)
@@ -68,7 +71,7 @@ function(){
 
 })
 
-
+// Slider Fin
 
 
 
