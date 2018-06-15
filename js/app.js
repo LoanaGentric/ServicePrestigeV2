@@ -73,6 +73,37 @@ function(){
 
 // Slider Fin
 
+// page 4 hover des photos début
+
+
+document.querySelector(".staff1").addEventListener('mouseover', function(e){
+  document.querySelector(".border1").className = "borderHover"
+});
+
+document.querySelector(".staff1").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border1"
+});
+
+
+document.querySelector(".staff2").addEventListener('mouseover', function(e){
+  document.querySelector(".border2").className = "borderHover"
+});
+
+document.querySelector(".staff2").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border2"
+});
+
+
+document.querySelector(".staff3").addEventListener('mouseover', function(e){
+  document.querySelector(".border3").className = "borderHover"
+});
+
+document.querySelector(".staff3").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border3"
+});
+
+// page 4 hover des photos fin
+
 
 
 

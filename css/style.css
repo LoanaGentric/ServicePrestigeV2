@@ -378,6 +378,8 @@ ul.lang{
   margin-top: 30px;
   display: flex;
   justify-content: space-around;
+  z-index: 1;
+  position: relative;
 }
 
 .container-equipe img {
@@ -394,6 +396,30 @@ ul.lang{
   line-height: 6em;
 }
 
+.contienBordures{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 224px;
+  z-index: 0;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.border1, .border2, .border3{
+  border: solid 2px white;
+  width: 218px;
+  transition: all 2s;
+
+}
+
+
+.borderHover{
+  border: solid 2px white;
+  width: 218px;
+  transform: rotate(45deg);
+  transition: all 2s;
+}
 
 /*
 ---------------------------------- PAGE 5 ------------------------------
