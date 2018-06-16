@@ -137,3 +137,6 @@ overlay.addEventListener('click', function(e) {
 
 	this.parentNode.classList.remove(activatedClass);
 });
+
+
+// SLIDER PAGE 3
