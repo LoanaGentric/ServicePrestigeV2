@@ -789,12 +789,6 @@ footer .partenaires p {
 }
 
 
-footer .infos .liens {
-  display: flex;
-  flex-direction: row;
-}
-
-
 footer .informations a {
   display: flex;
   justify-content: center;
@@ -1027,6 +1021,20 @@ and (max-device-width : 667px) {
   width: 400px;
 }
 
+.contienBordures{
+  display: none;
+}
+
+.border1, .border2, .border3{
+  display: none;
+
+}
+
+
+.borderHover{
+  display: none;
+}
+
 /* --- PAGE 5 --- */
 
 #page5{
@@ -1065,7 +1073,78 @@ and (max-device-width : 667px) {
 }
 
 
+/* --- PAGE 6 --- */
+#page6{
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page6 h2{
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+#page6 img{
+  display: none;
+}
+
+#page6 .containtCondition{
+  display: flex;
+  flex-direction: column;
+}
+
+#page6 .ll{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1500px;
+  margin: 0;
+}
+#page6 .ll p{
+  margin: 80px 60px;
+}
+
+#page6 .text3{
+  margin: 0;
+}
+
+/* --- PAGE 7 --- */
+
+#page7 h2{
+  margin-bottom: 200px;
+}
+
+.leftImg, .rightImg{
+  display: none;
+}
+
+img.center{
+  width: 1200px;
+  margin-top: 200px;
+}
+
+/* --- PAGE 8 --- */
+#page8{
+  height: 3550px;
+  width: 1490px;
+}
+
+#citation{
+  font-size: 3.7em;
+}
+
 /* --- ALL PAGES --- */
+
+nav ul li{
+  font-size: 4.0em;
+  margin-top: 200px;
+}
+
+nav ul #liMenu{
+display : none;
+}
 
 p{
   font-size: 3.7em;
@@ -1091,7 +1170,7 @@ footer{
   width: 1500px;
 }
 
-#page1, #page2, #page3, #page4, #page6, #page7, #page8, #page9{
+#page1, #page2, #page3, #page4, #page6, #page7, #page9{
   height: 2664px;
   width: 1490px;
 }

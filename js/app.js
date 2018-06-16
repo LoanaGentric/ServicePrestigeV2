@@ -108,7 +108,7 @@ document.querySelector(".staff3").addEventListener('mouseleave', function(e){
 
 
 
-
+// MENU HAMBURGER
 
 var content = document.querySelector('#hamburger-content');
 var sidebarBody = document.querySelector('#hamburger-sidebar-body');
