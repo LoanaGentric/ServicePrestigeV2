@@ -108,7 +108,7 @@ document.querySelector(".staff3").addEventListener('mouseleave', function(e){
 
 
 
-
+// MENU HAMBURGER
 
 var content = document.querySelector('#hamburger-content');
 var sidebarBody = document.querySelector('#hamburger-sidebar-body');
@@ -137,3 +137,6 @@ overlay.addEventListener('click', function(e) {
 
 	this.parentNode.classList.remove(activatedClass);
 });
+
+
+// SLIDER PAGE 3

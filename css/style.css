@@ -248,7 +248,7 @@ ul.lang{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 35px;
+  padding: 50px;
   position: relative;
 
 
@@ -279,8 +279,8 @@ ul.lang{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
-  width: 600px;
+  height: 650px;
+  width: 650px;
 
 
   background: #000;
@@ -299,8 +299,8 @@ ul.lang{
   align-items: center;
   position: absolute;
 
-  height: 550px;
-  width: 550px;
+  height: 600px;
+  width: 600px;
   background: #000;
   border:1px solid #fff;
 }
@@ -465,7 +465,7 @@ ul.lang{
 }
 
 .chart img{
-  width: 45%;
+  width: 50%;
 }
 
 .last{
@@ -789,12 +789,6 @@ footer .partenaires p {
 }
 
 
-footer .infos .liens {
-  display: flex;
-  flex-direction: row;
-}
-
-
 footer .informations a {
   display: flex;
   justify-content: center;
@@ -911,7 +905,7 @@ header{
 
 @media only screen
 and (min-device-width : 365px)
-and (max-device-width : 667px) {
+and (max-device-width : 780px) {
 
 /* --- HAMBURGER MENU --- */
 
@@ -1027,6 +1021,20 @@ and (max-device-width : 667px) {
   width: 400px;
 }
 
+.contienBordures{
+  display: none;
+}
+
+.border1, .border2, .border3{
+  display: none;
+
+}
+
+
+.borderHover{
+  display: none;
+}
+
 /* --- PAGE 5 --- */
 
 #page5{
@@ -1065,7 +1073,78 @@ and (max-device-width : 667px) {
 }
 
 
+/* --- PAGE 6 --- */
+#page6{
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page6 h2{
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+#page6 img{
+  display: none;
+}
+
+#page6 .containtCondition{
+  display: flex;
+  flex-direction: column;
+}
+
+#page6 .ll{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1500px;
+  margin: 0;
+}
+#page6 .ll p{
+  margin: 80px 60px;
+}
+
+#page6 .text3{
+  margin: 0;
+}
+
+/* --- PAGE 7 --- */
+
+#page7 h2{
+  margin-bottom: 200px;
+}
+
+.leftImg, .rightImg{
+  display: none;
+}
+
+img.center{
+  width: 1200px;
+  margin-top: 200px;
+}
+
+/* --- PAGE 8 --- */
+#page8{
+  height: 3550px;
+  width: 1490px;
+}
+
+#citation{
+  font-size: 3.7em;
+}
+
 /* --- ALL PAGES --- */
+
+nav ul li{
+  font-size: 4.0em;
+  margin-top: 200px;
+}
+
+nav ul #liMenu{
+display : none;
+}
 
 p{
   font-size: 3.7em;
@@ -1091,10 +1170,179 @@ footer{
   width: 1500px;
 }
 
-#page1, #page2, #page3, #page4, #page6, #page7, #page8, #page9{
+#page1, #page2, #page3, #page4, #page6, #page7, #page9{
   height: 2664px;
   width: 1490px;
 }
 
+}
 
+
+@media only screen
+and (min-width : 365px)
+and (max-width : 667px) {
+
+  /* --- HAMBURGER MENU --- */
+
+    #hamburger-content {
+        display: none;
+    }
+
+    #hamburger-button, #hamburger-sidebar,
+    .hamburger-activated #hamburger-overlay {
+        display: block;
+    }
+
+
+
+    .hamburger-activated #hamburger-sidebar {
+        transform: translateX(0);
+    }
+
+    nav ul{
+      display: block;
+    }
+
+    img.logo{
+      display: none;
+    }
+
+  /* --- PAGE 2 --- */
+
+  .bigLosange2, .losange2{
+    color: #000;
+    border-color: #000;
+    width: 70%;
+  }
+
+  .contentPage2 p{
+    line-height: 2.5em;
+  }
+
+  .contentPage2{
+    padding: 0;
+  }
+
+  /* --- PAGE 3 --- */
+
+  .articlePage3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articlePage3 img {
+    display: none;
+  }
+
+  #cds{
+    display:none;
+  }
+
+  /* --- PAGE 4 --- */
+
+  .container-equipe{
+    flex-direction: column;
+  }
+
+  .equipe p{
+    margin: 0;
+    line-height: 3em;
+  }
+
+  .container-equipe img{
+    width: 130px;
+  }
+
+  .contienBordures{
+    display: none;
+  }
+
+  .border1, .border2, .border3{
+    display: none;
+
+  }
+  .borderHover{
+    display: none;
+  }
+
+  /* --- PAGE 5 --- */
+
+  #page5{
+    width: 1490px;
+  }
+
+  .chart{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .chart p {
+    align-self: center;
+    margin: 0 100px;
+    text-align: center;
+  }
+
+  .second p{
+    order: 1;
+  }
+
+  .first, .second, .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin: 90px;
+  }
+
+  .chart img{
+    width: 1500px;
+    height: 350px;
+    object-fit: cover;
+  }
+
+
+  /* --- PAGE 6 --- */
+  #page6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #page6 h2{
+    text-align: center;
+  }
+
+  #page6 img{
+    display: none;
+  }
+
+
+
+  /* --- PAGE 7 --- */
+
+  #page7 h2{
+    margin-bottom: 200px;
+  }
+
+  .leftImg, .rightImg{
+    display: none;
+  }
+
+
+  /* --- PAGE 8 --- */
+  #page8{
+    height: 1000px;
+  }
+
+
+  /* --- ALL PAGES --- */
+
+  footer{
+    width: 100%;
+  }
+
+
+  }
 }
