@@ -196,10 +196,17 @@ h1{
   border:2px solid black;
   opacity: 0.8;
 
+  position: relative;
+
   -ms-transform: rotate(45deg); /* Internet Explorer */
   -moz-transform: rotate(45deg); /* Firefox */
   -webkit-transform: rotate(45deg); /* Safari et Chrome */
   -o-transform: rotate(45deg); /* Opera */
+}
+
+.bigLosange a{
+  z-index: 1;
+  transform: rotate(-45deg);
 }
 
 .losange {
@@ -210,6 +217,12 @@ h1{
     width: 220px;
     background: white;
     border:1px solid black;
+    position: absolute;
+}
+
+.losange:hover{
+  transition: all 1s;
+  transform: rotate(45deg);
 }
 
 .losange h2{
