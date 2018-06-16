@@ -1,6 +1,9 @@
-let carImage = ["images/teslaX.jpg", "images/teslaS.png", "images/mercedesClasseE.jpg", "images/mercedesClasseS.png", "images/mercedesClasseV.jpg", "images/mercedesGLE.png", "images/audiA6.png", "images/audiA8.png", "images/bmwSerie5.jpeg", "images/bmwSerie7.png", "images/rangeRover.jpg"]
+let carImage = ["images/cars/teslaX.png", "images/cars/teslaS.png", "images/cars/mercedesClasseE.png", "images/cars/mercedesClasseS.png", "images/cars/mercedesClasseV.png", "images/cars/mercedesGLE.png", "images/cars/audiA6.png", "images/cars/audiA8L.png", "images/cars/bmwSerie5.png", "images/cars/bmwSerie7.png", "images/cars/rangeRover.png"]
 
 let carName = ["Tesla X", "Tesla S", "Mercedes Classe E", "Mercedes Classe S", "Mercedes Class V", "Mercedes GLE", "Audi A6", "Audi A8", "BMW Série 5", "BMW Série 7", "RANGE ROVER"]
+
+
+// slider début
 
 let i = 0
 
@@ -12,7 +15,7 @@ let i = 0
         i = 0
       }
       console.log(i)
-    },26000)
+    },3000)
 
 
 //intervalID = window.setInterval(mouvement(i),1000)
@@ -68,13 +71,44 @@ function(){
 
 })
 
+// Slider Fin
+
+// page 4 hover des photos début
+
+
+document.querySelector(".staff1").addEventListener('mouseover', function(e){
+  document.querySelector(".border1").className = "borderHover"
+});
+
+document.querySelector(".staff1").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border1"
+});
+
+
+document.querySelector(".staff2").addEventListener('mouseover', function(e){
+  document.querySelector(".border2").className = "borderHover"
+});
+
+document.querySelector(".staff2").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border2"
+});
+
+
+document.querySelector(".staff3").addEventListener('mouseover', function(e){
+  document.querySelector(".border3").className = "borderHover"
+});
+
+document.querySelector(".staff3").addEventListener('mouseleave', function(e){
+  document.querySelector(".borderHover").className = "border3"
+});
+
+// page 4 hover des photos fin
 
 
 
 
 
-
-
+// MENU HAMBURGER
 
 var content = document.querySelector('#hamburger-content');
 var sidebarBody = document.querySelector('#hamburger-sidebar-body');
