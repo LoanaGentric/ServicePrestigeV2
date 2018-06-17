@@ -6,7 +6,6 @@ body{
 
 h2{
   font-size: 2.1em;
-  text-align: center;
 }
 
 p{
@@ -27,6 +26,31 @@ a{
 li{
   font-size: 1em;
 }
+
+
+/*test css générale (thibault)*/
+
+div.titleCondition{
+  display: flex;
+  justify-content: center;
+}
+
+div.titleCondition img{
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+}
+
+div.titleCondition img:last-child{
+  transform: rotate(180deg);
+}
+
+h2{
+  margin: 20px;
+}
+
+
+
 /*
 ---------------------------------- PAGE 1 ------------------------------
 */
@@ -418,7 +442,7 @@ ul.lang{
   height: 223px;
   z-index: 0;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .border1, .border2, .border3{
@@ -453,7 +477,7 @@ ul.lang{
 }
 
 
-.titr{
+#page5 h3{
   width : 600px;
   margin: 0 auto;
   padding-top: 60px;
@@ -518,9 +542,6 @@ ul.lang{
   color: white;
 }
 
-#page6 h2{
-  padding-top: 80px;
-}
 
 #page6 h3{
   display: block;
