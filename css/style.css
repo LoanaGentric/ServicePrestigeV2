@@ -640,7 +640,7 @@ div.voitureSlider{
 }
 
 /*
----------------------------------- PAGE8 ------------------------------
+---------------------------------- PAGE 8 ------------------------------
 */
 
 #page8{
@@ -721,6 +721,12 @@ svg{
   text-decoration: underline;
 }
 
+#polblock img{
+  width: 20px;
+  float: left;
+  margin-right: 25px;
+}
+
 #citation{
   font-style: italic;
   font-size: 1.2em;
@@ -732,6 +738,8 @@ svg{
   position: absolute;
   margin-left: -3%;
 }
+
+
 
 /*
 ---------------------------------- PAGE9 ------------------------------
