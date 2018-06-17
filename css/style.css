@@ -1,17 +1,20 @@
 body{
   width: 100%;
   font-size: 0.9rem;
-  font-family: 'Opens Sans', sans-serif;
+  font-family: 'Roboto', 'Opens Sans', sans-serif;
+  margin: 0; 
 }
 
 h2{
   font-size: 2.1em;
+  font-family: 'Roboto', 'Opens Sans', sans-serif;
 }
 
 p{
   font-size: 1.1em;
-    line-height: 1.3em;
-  font-family: 'Opens Sans', sans-serif;
+  line-height: 1.3em;
+  font-family: 'Roboto', 'Opens Sans', sans-serif;
+  font-weight: lighter;
 }
 
 h3{
@@ -26,6 +29,31 @@ a{
 li{
   font-size: 1em;
 }
+
+
+/*test css générale (thibault)*/
+
+div.titleCondition{
+  display: flex;
+  justify-content: center;
+}
+
+div.titleCondition img{
+  width: 10%;
+  height: 10%;
+  margin-top: 15px;
+}
+
+div.titleCondition img:last-child{
+  transform: rotate(180deg);
+}
+
+div.titleCondition h2{
+  margin: 20px;
+}
+
+
+
 /*
 ---------------------------------- PAGE 1 ------------------------------
 */
@@ -38,7 +66,7 @@ li{
 
   width: 100%;
   height: 800px;
-  background-image: url(../images/Accueil.jpg);
+  background-image: url(../images/Accueil.png);
   background-repeat: no-repeat;
   background-size:auto 820px;
 }
@@ -196,10 +224,17 @@ h1{
   border:2px solid black;
   opacity: 0.8;
 
+  position: relative;
+
   -ms-transform: rotate(45deg); /* Internet Explorer */
   -moz-transform: rotate(45deg); /* Firefox */
   -webkit-transform: rotate(45deg); /* Safari et Chrome */
   -o-transform: rotate(45deg); /* Opera */
+}
+
+.bigLosange a{
+  z-index: 1;
+  transform: rotate(-45deg);
 }
 
 .losange {
@@ -210,6 +245,13 @@ h1{
     width: 220px;
     background: white;
     border:1px solid black;
+    position: absolute;
+    transition: all 1s;
+}
+
+.losange:hover{
+  transition: all 1s;
+  transform: rotate(45deg);
 }
 
 .losange h2{
@@ -403,7 +445,7 @@ ul.lang{
   height: 223px;
   z-index: 0;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .border1, .border2, .border3{
@@ -438,7 +480,7 @@ ul.lang{
 }
 
 
-.titr{
+#page5 h3{
   width : 600px;
   margin: 0 auto;
   padding-top: 60px;
@@ -502,6 +544,7 @@ ul.lang{
 #page6 *{
   color: white;
 }
+
 
 #page6 h3{
   display: block;
@@ -600,7 +643,7 @@ div.voitureSlider{
 }
 
 /*
----------------------------------- PAGE8 ------------------------------
+---------------------------------- PAGE 8 ------------------------------
 */
 
 #page8{
@@ -681,6 +724,12 @@ svg{
   text-decoration: underline;
 }
 
+#polblock img{
+  width: 20px;
+  float: left;
+  margin-right: 25px;
+}
+
 #citation{
   font-style: italic;
   font-size: 1.2em;
@@ -692,6 +741,8 @@ svg{
   position: absolute;
   margin-left: -3%;
 }
+
+
 
 /*
 ---------------------------------- PAGE9 ------------------------------
@@ -844,7 +895,7 @@ and (max-device-width : 1024px)  {
 /* --- PAGE 1 ---*/
 
 #page1{
-  background-image: url(../images/Accueil.jpg);
+  background-image: url(../images/Accueil.png);
   background-repeat: no-repeat;
   background-size:auto 948px;
 }
@@ -938,7 +989,7 @@ and (max-device-width : 780px) {
   /* --- PAGE 1 ---*/
 
   #page1{
-    background-image: url(../images/Accueil.jpg);
+    background-image: url(../images/Accueil.png);
     background-repeat: no-repeat;
     background-size:auto 2664px;
     background-position: center
