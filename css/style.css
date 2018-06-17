@@ -45,7 +45,7 @@ div.titleCondition img:last-child{
   transform: rotate(180deg);
 }
 
-h2{
+div.titleCondition h2{
   margin: 20px;
 }
 
