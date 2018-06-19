@@ -167,9 +167,9 @@
         <article class="perf">
 
           <div class="titleCondition">
-            <img src="images/2black.png" alt="">
+            <img src="images/2black.png" alt="losange décoration">
             <h2>NOTRE CHARTE QUALITÉ</h2>
-            <img src="images/2black.png" alt="">
+            <img src="images/2black.png" alt="losange décoration">
           </div>
 
           <h3>
@@ -323,41 +323,40 @@
       </div>
 
       <div id="page9">
+        <div class="formBloc">
         <div class="rejoignez">
           <h2>Rejoignez-nous</h2>
         </div>
         <div class="contentPage9">
-          <p>
-            Vous êtes un chauffeur VTC ?<br>
-            Vous rechercher une plateforme vous permettant de remplir votre emploi du temps ?<br>
-            Vous possédez l’une des voitures montrée ci-dessus ?
-          </p>
-          <p>Contactez-nous en remplissant ce formulaire</p>
+          <div class="formText">
+          <p>Vous êtes un chauffeur VTC ?<br>
+Vous rechercher une plateforme vous permettant de remplir votre emploi du temps ?<br>
+Vous possédez l’une des voitures montrée ci-dessus ?</p>
+          </div>
+          <p id="formCenter">Contactez-nous en remplissant ce formulaire!</p>
 
-          <form method="post" action="inscription.php">
-            <label for="lastname">Votre nom</label>
-            <input type="text" name="nom" id="lastname" />
+          <form method="POST" action="inscription.php">
 
-            <label for="name">Votre Prénom</label>
-            <input type="text" name="prenom" id="name" />
+            <input type="text" placeholder="Nom" name="nom" id="lastname" />
 
-            <label for="langue">Langues parlées</label>
 
-            <label for="français">Français</label>
-              <input type="checkbox" name="FR" id="français">
-            <label for="anglais">Anglais</label>
-              <input type="checkbox" name="EN" id="anglais">
-            <label for="allemand">Allemand</label>
-              <input type="checkbox" name="ALL" id="allemand">
-            <label for="espagnol">Espagnol</label>
-              <input type="checkbox" name="ES" id="espagnol">
-            <label for="autre">Autre(s)</label>
-              <input type="text" name="OTHER" id="autre">
-          </form>
+            <input type="text" placeholder="Prénom" name="prenom" id="firstname" />
+
+            <input type="text" placeholder="Langues parlées (FR, ANG, DE, ...)" name="prenom" id="lang" />
+
+            <input type="text" placeholder="Votre voiture (Mercedes Class E, ...)"name="car" id="car" />
+
+            <input type="text" placeholder="E-mail" name="mail" id="mail" />
+
+            <input class="buton" type="submit" value="VALIDER" />
 
 
 
           </form>
+
+
+
+
         </div>
       </div>
       <footer>
