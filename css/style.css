@@ -2,7 +2,7 @@ body{
   width: 100%;
   font-size: 0.9rem;
   font-family: 'Roboto', 'Opens Sans', sans-serif;
-  margin: 0; 
+  margin: 0;
 }
 
 h2{
@@ -363,6 +363,7 @@ ul.lang{
 }
 
 .titlePage3 {
+  padding-top: 3%;
   text-align: center;
   margin-top: 20px;
 }
@@ -376,13 +377,13 @@ ul.lang{
 .articlePage3 img {
   width: 35%;
   object-fit: cover;
-  height: 50%;
+  padding: 0 10%;
 }
 
 .articlePage3 div {
   width: 40%;
-  padding: 0 149px;
   text-align: center;
+  justify-content: center;
 }
 
 .articlePage3 p {
@@ -392,6 +393,10 @@ ul.lang{
 
 .articlePage3 .subtitlePage3 {
   font-weight: initial;
+}
+
+#page3 h4{
+  margin: 0;
 }
 
 /*
@@ -519,6 +524,10 @@ ul.lang{
   margin: 0 auto;
   text-align: center;
   font-weight: 100;
+}
+
+#page5 h2{
+  margin-top: 5%;
 }
 
 /*
@@ -755,11 +764,18 @@ svg{
   z-index: 1;
   padding:0;
   margin:0;
-
   width: 100%;
-  height: 800px;
+  height: 1100px;
   background: #fff;
 }
+
+.formBloc{
+  width: 60%;
+  margin: auto;
+  border: 1.5em solid #D9D9D9;
+  box-shadow: 4px 4px 8px #aaa;
+}
+
 
 .contentPage9{
   display: flex;
@@ -770,15 +786,105 @@ svg{
 .rejoignez {
   display: flex;
   justify-content:center;
-  width: 30%;
+  width: 40%;
   background: #fff;
-  border: 2px solid #000;
-  margin: 20px;
+  border: 1px solid #707070;
+  margin: 0 auto;
+  font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -7%;
 }
 
 form{
   display: flex;
   flex-direction: column;
+}
+
+.formText{
+  margin-top: 2%;
+  padding-left: 10%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+
+}
+
+.buton{
+  width: 20%;
+  height: 2.5em;
+  background-color: #555555;
+  border: 1px solid #555555;
+  font-size: 1.1em;
+  color: white;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  margin-top: 2%;
+  margin-bottom: 1em;
+}
+
+.buton:active{
+  background-color: white;
+  color: #50904B;
+  font-size: 1.1em;
+}
+
+#lastname{
+  width: 30%;
+  height: 2em;
+  margin-left: 10%;
+  padding-left: 1em;
+  display: block;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#firstname{
+  position: absolute;
+  width: 18%;
+  height: 2em;
+  margin-left: 30%;
+  padding-left: 1em;
+  display: block;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#lang{
+  padding-left: 1em;
+  width: 50%;
+  height: 2em;
+  margin: 4% 10%;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#car{
+  padding-left: 1em;
+  width: 50%;
+  height: 2em;
+  margin: 0% 10%;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#formCenter{
+  margin: 0 auto;
+  padding-bottom: 1.5em;
+}
+
+#mail{
+  padding-left: 1em;
+  width: 50%;
+  height: 2em;
+  margin: 4% 10%;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+input, select, textarea{
+
+  color: grey;
+  font-size: 1em;
+
 }
 
 /*
