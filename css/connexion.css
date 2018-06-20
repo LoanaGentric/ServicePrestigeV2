@@ -1,0 +1,58 @@
+/*CONNEXION*/
+
+.connexion .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.connexion form {
+  display: block;
+  margin: 40px auto;
+  max-width: 420px;
+}
+
+.connexion .contain-input {
+  width: 100%;
+  border: 1px solid #DEDEDE;
+  margin-bottom: -1px;
+  padding: 17px 13px;
+  box-sizing: border-box;
+}
+
+.connexion input {
+  width: 100%;
+  border: none;
+  font-size: 13px;
+  line-height: 24px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.connexion input::placeholder {
+  color: #DEDEDE;
+}
+
+.connexion .btn {
+  margin-top: 20px;
+  height: 60px;
+  cursor: pointer;
+  background: #DEDEDE;
+}
+
+.connexion .btn:hover {
+  background-color: #D4D4D4;
+}
+
+.error-connexion,
+.message-connexion {
+  display: block;
+  max-width: 420px;
+  margin: 40px auto;
+}
+
+
+.error-connexion {
+  color: red;
+}
