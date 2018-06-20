@@ -8,7 +8,6 @@
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <!--
@@ -181,7 +180,7 @@
           <div class="chart">
 
             <div class="first">
-              <img src="images/1.jpg" alt="première photo">
+              <img src="images/1.jpg" alt="portier">
               <p>
                 La <strong>qualité</strong> est la clé de voute de notre <strong>réseau</strong>, seul réseau <strong>haut de gamme structuré</strong> présent en France et volontairement <strong>élitiste</strong>. Tout prétendant à l’affiliation avec notre centrale, s’engage à respecter rigoureusement tous les points notifiés dans notre <strong>charte qualité</strong>. <br> De manière générale, un <strong>bon niveau d’anglais</strong> et un <strong>certain nombre d’années d’expérience</strong> sont requis pour prétendre à exécuter des missions de transport confiées par la centrale.
               </p>
@@ -189,11 +188,11 @@
 
             <div class="second">
               <p>Un <strong>test chauffeur</strong> doit être systématiquement <strong>passé et validé</strong> pour toute entreprise (ou l’un de ses chauffeurs) afin de garantir aux autres affiliés que les <strong>compétences minima requises</strong> sont bien respectées.</p>
-              <img src="images/2.jpg" class="deuxiemePhoto" alt="deuxième photo">
+              <img src="images/2.jpg" class="deuxiemePhoto" alt="sièges voiture luxe">
             </div>
 
             <div class="third">
-              <img src="images/3.jpg" alt="troisième photo">
+              <img src="images/3.jpg" alt="relation client Service Prestige">
               <p>Des <strong>contrôles terrain</strong> sont organisés quotidiennement pour assurer un <strong>niveau de prestation constant</strong>. <strong>L’excellence</strong> à un coût et le premier est d’être capable de se <strong>remettre en question</strong> quand des défauts sont pointés par nos contrôleurs qualité. <br>Le <strong>seul objectif</strong> poursuivi par la centrale est de <strong>maintenir un niveau de service fidèle</strong> à la marque et d’<strong>assurer</strong> aux affiliés donneurs d’ordres de <strong>disposer de toutes les garanties qualité</strong> quand ils confient leurs clients aux bons soins de leurs co-affiliés.  </p>
             </div>
 
@@ -217,9 +216,9 @@
       <div id="page6">
         <div class="title">
           <div class="titleDecoration">
-            <img src="images/2white.png" alt="">
+            <img src="images/2white.png" alt="losange décoration">
             <h2>CONDITIONS</h2>
-            <img src="images/2white.png" alt="">
+            <img src="images/2white.png" alt="losange décoration">
           </div>
         </div>
 
@@ -257,9 +256,9 @@
       <div id="page7">
 
         <div class="titleDecoration">
-          <img src="images/2black.png" alt="">
+          <img src="images/2black.png" alt="losange décoration">
           <h2>VÉHICULES ACCEPTÉS</h2>
-          <img src="images/2black.png" alt="">
+          <img src="images/2black.png" alt="losange décoration">
         </div>
 
         <div class="contentPage7">
@@ -267,15 +266,15 @@
 
           <div class="imgSlider">
 
-            <img src="images/fleche.png" alt="" id="fleche">
+            <img src="images/fleche.png" alt="flèche" id="fleche">
 
             <div class="voitureSlider">
-              <img src="images/cars/rangeRover.png" class="leftImg" class="slider" alt="">
-              <img src="images/cars/teslaX.png" class="center" class="slider" alt="">
-              <img src="images/cars/teslaS.png" class="rightImg" class="slider" alt="">
+              <img src="images/cars/rangeRover.png" class="leftImg" class="slider" alt="image voiture">
+              <img src="images/cars/teslaX.png" class="center" class="slider" alt="image voiture">
+              <img src="images/cars/teslaS.png" class="rightImg" class="slider" alt="image voiture">
             </div>
 
-            <img src="images/fleche.png" alt="" id="fleche2">
+            <img src="images/fleche.png" alt="flèche" id="fleche2">
 
           </div>
 
@@ -290,9 +289,9 @@
         <div class="containerPolitic">
           <div class="politique">
             <div class="titleDecoration">
-              <img src="images/2green.png" alt="">
+              <img src="images/2green.png" alt="losange décoration">
               <h2 id="titress">NOTRE CHARTE ÉCOLOGIQUE</h2>
-              <img src="images/2green.png" alt="">
+              <img src="images/2green.png" alt="losange décoration">
             </div>
             <h3>Service Prestige Développement s’engage pour l’environnement.</h3>
             <div id="poldescription">
@@ -302,29 +301,29 @@
             </div>
             <div id="polblock">
               <p>Nos actions :</p>
-              <img src="images/smallGreen.png" alt="">
+              <img src="images/smallGreen.png" alt="losange vert">
               <p>
                 Notre logiciel CDS permet d’informer, les clients des utilisateurs, en l’occurrence nos affiliés,
                 du taux d’émission CO² pour chaque mission de transport.
               </p>
-              <img src="images/smallGreen.png" alt="">
+              <img src="images/smallGreen.png" alt="losange vert">
               <p>
                 Promouvoir l’utilisation de véhicules propres dans notre réseau et dans notre activité, nous
                 priorisons l’accès à notre réseau à des entreprises vertueuses utilisant des véhicules 100%
                 électrique notamment avec des modèles haut de gamme du type TESLA S et X.
               </p>
-              <img src="images/smallGreen.png" alt="">
+              <img src="images/smallGreen.png" alt="losange vert">
               <p>
                 Nous incitons nos affiliés à se former et pratiquer l’éco-conduite au quotidien, car comme le
                 dit justement l’adage : « ce sont les petits ruisseaux qui forment de grandes rivières » chaque
                 geste à son importance.
               </p>
-              <img src="images/smallGreen.png" alt="">
+              <img src="images/smallGreen.png" alt="losange vert">
               <p>
                 Service Prestige Développement a fait le choix pour ses besoins propres d’utiliser des
                 véhicules de service hybrides de dernière génération.
               </p>
-              <img src="images/smallGreen.png" alt="">
+              <img src="images/smallGreen.png" alt="losange vert">
               <p>
                 Service Prestige Développement dans sa gestion interne prend des mesures anti-gaspillage
                 de papier en favorisant les échanges et le stockage de données électronique.
@@ -343,25 +342,26 @@
       -->
       <div id="page9">
         <div class="formBloc">
-        <div class="rejoignez">
-          <h2>Rejoignez-nous</h2>
-        </div>
-        <div class="contentPage9">
-          <div class="formText">
-          <p>Vous êtes un chauffeur VTC ?<br>
-Vous rechercher une plateforme vous permettant de remplir votre emploi du temps ?<br>
-Vous possédez l’une des voitures montrée ci-dessus ?</p>
+          <div class="rejoignez">
+            <h2>Rejoignez-nous</h2>
           </div>
-          <p id="formCenter">Contactez-nous en remplissant ce formulaire!</p>
+          <div class="contentPage9">
+            <div class="formText">
+            <p>Vous êtes un chauffeur VTC ?<br>
+  Vous rechercher une plateforme vous permettant de remplir votre emploi du temps ?<br>
+  Vous possédez l’une des voitures montrée ci-dessus ?</p>
+            </div>
+            <p id="formCenter">Contactez-nous en remplissant ce formulaire!</p>
 
-          <form method="post" action="inscription.php">
-            <input type="text" placeholder="Nom" name="lastname" id="lastname" />
-            <input type="text" placeholder="Prénom" name="name" id="firstname" />
-            <input type="text" placeholder="Langues parlées (FR, ANG, DE, ...)" name="lang" id="lang" />
-            <input type="text" placeholder="Votre voiture (Mercedes Class E, ...)" name="voiture" id="car" />
-            <input type="email" placeholder="E-mail" name="email" id="mail" />
-            <input class="buton" type="submit" name="send" value="VALIDER" />
-          </form>
+            <form method="post" action="inscription.php">
+              <input type="text" placeholder="Nom" name="lastname" id="lastname" />
+              <input type="text" placeholder="Prénom" name="name" id="firstname" />
+              <input type="text" placeholder="Langues parlées (FR, ANG, DE, ...)" name="lang" id="lang" />
+              <input type="text" placeholder="Votre voiture (Mercedes Class E, ...)" name="voiture" id="car" />
+              <input type="email" placeholder="E-mail" name="email" id="mail" />
+              <input class="buton" type="submit" name="send" value="VALIDER" />
+            </form>
+          </div>
         </div>
       </div>
       <!--
