@@ -2,7 +2,7 @@ body{
   width: 100%;
   font-size: 0.9rem;
   font-family: 'Roboto', 'Opens Sans', sans-serif;
-  margin: 0; 
+  margin: 0;
 }
 
 h2{
@@ -290,8 +290,10 @@ ul.lang{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  /*padding: 50px;*/
   position: relative;
+
+  width: 100%;
 
 
   -ms-transform: rotate(-45deg); /* Internet Explorer */
@@ -316,6 +318,44 @@ ul.lang{
   font-weight: lighter;
   line-height: 1.4em;
 }
+
+#page2 div.textPremier{
+  width: 70%;
+}
+
+#page2 div.textP2{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+#page2 div.slideP2-1 img, div.slideP2-2 img {
+  width: 30px;
+  margin-top: 28px;
+}
+
+/*
+#page2 div.slideP2-1 img{
+  margin-left: -150px;
+} */
+
+#page2 div.slideP2-2 img{
+  transform: rotate(180deg);
+  /*margin-right: -150px;*/
+}
+
+/*
+#page2 div.points{
+  width: 100px;
+}
+
+
+#page2 div.uniPoint{
+  width: 20px;
+  background-color: white;
+}
+*/
 
 .bigLosange2{
   display: flex;
