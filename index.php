@@ -8,6 +8,7 @@
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <!--
@@ -164,7 +165,7 @@
 
       -->
       <div id="page5">
-        <article class="perf">
+        <div class="perf">
           <div class="title">
             <div class="titleDecoration">
               <img src="images/2black.png" alt="losange décoration">
@@ -206,7 +207,7 @@
               <strong>Assurément la Qualité est notre maître mot…</strong>
             </p>
           </div>
-        </article>
+        </div>
       </div>
       <!--
 

@@ -1190,7 +1190,9 @@ and (max-device-width : 780px) {
 
 /* --- PAGE 5 --- */
 
-
+#page5 {
+  width: 100%;
+}
 
 
 /* --- PAGE 6 --- */
@@ -1293,6 +1295,10 @@ footer{
 #page1, #page2, #page3, #page4, #page6, #page7, #page9{
   height: 2664px;
   width: 1490px;
+}
+
+body{
+  width: 405%;
 }
 
 }
