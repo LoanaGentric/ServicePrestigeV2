@@ -1,20 +1,18 @@
 body{
   width: 100%;
   font-size: 0.9rem;
-  font-family: 'Roboto', 'Opens Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 h2{
   font-size: 2.1em;
-  font-family: 'Roboto', 'Opens Sans', sans-serif;
 }
 
 p{
   font-size: 1.1em;
   line-height: 1.3em;
-  font-family: 'Roboto', 'Opens Sans', sans-serif;
-  font-weight: lighter;
+  font-weight: lighter ;
 }
 
 h3{
@@ -30,25 +28,22 @@ li{
   font-size: 1em;
 }
 
-
-/*test css générale (thibault)*/
-
-div.titleCondition{
+div.titleDecoration{
   display: flex;
   justify-content: center;
 }
 
-div.titleCondition img{
+div.titleDecoration img{
   width: 10%;
   height: 10%;
   margin-top: 15px;
 }
 
-div.titleCondition img:last-child{
+div.titleDecoration img:last-child{
   transform: rotate(180deg);
 }
 
-div.titleCondition h2{
+div.titleDecoration h2{
   margin: 20px;
 }
 
@@ -347,6 +342,10 @@ ul.lang{
   border:1px solid #fff;
 }
 
+#moreInfos p{
+  text-decoration: underline;
+}
+
 
 /*
 --------------------------------- PAGE 3 --------------------------------
@@ -387,8 +386,7 @@ ul.lang{
 }
 
 .articlePage3 p {
-  font-size: 20px;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 .articlePage3 .subtitlePage3 {
@@ -475,60 +473,54 @@ ul.lang{
 #page5{
   display: flex;
   justify-content: center;
+  flex-direction: column;
   z-index: 1;
   padding:0;
   margin:0;
-  height: auto;
 
   width: 100%;
   background: #fff;
 }
 
-
-#page5 h3{
-  width : 600px;
-  margin: 0 auto;
-  padding-top: 60px;
-  text-align: center;
+#page5 h2{
+  color: #000;
+  padding-bottom: 2%;
 }
 
-.chart{
+#page5 .titleDecoration{
+  padding-top: 5%;
+}
+
+#page5 h3{
+  padding-bottom: 5%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#page5 .chart img{
+  width: 50%;
+  height: 50%;
+}
+
+.first, .second, .third {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#page5 .first p, .second p, .third p{
+  padding: 5%;
+}
+
+.last {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
-}
-
-.chart p {
-  align-self: center;
-  margin: 0 30px;
-}
-
-.first, .second, .third{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 350px;
-}
-
-.chart img{
-  width: 50%;
-}
-
-.last{
-  margin-top: 50px;
-}
-.last p{
-  width : 600px;
-  height: 100px;
-  margin: 0 auto;
   text-align: center;
-  font-weight: 100;
+  margin: 3% auto;
+  width: 60%;
 }
 
-#page5 h2{
-  margin-top: 5%;
-}
 
 /*
 ---------------------------------- PAGE 6 ------------------------------
@@ -543,6 +535,10 @@ ul.lang{
   width: 100%;
   height: 800px;
   background: #000;
+}
+
+#page6 .title{
+  padding: 6% 0 2% 0;
 }
 
 #page6 .containtCondition{
@@ -1194,39 +1190,8 @@ and (max-device-width : 780px) {
 
 /* --- PAGE 5 --- */
 
-#page5{
-  width: 1490px;
-}
-
-.chart{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.chart p {
-  align-self: center;
-  margin: 0 100px;
-  text-align: center;
-}
-
-.second p{
-  order: 1;
-}
-
-.first, .second, .third{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: auto;
-  margin: 90px;
-}
-
-.chart img{
-  width: 1500px;
-  height: 350px;
-  object-fit: cover;
+#page5 {
+  width: 100%;
 }
 
 
@@ -1332,12 +1297,16 @@ footer{
   width: 1490px;
 }
 
+body{
+  width: 405%;
+}
+
 }
 
 
-@media only screen
-and (min-width : 365px)
-and (max-width : 667px) {
+@media screen
+and (min-width : 340px)
+and (max-width : 1067px) {
 
   /* --- HAMBURGER MENU --- */
 
@@ -1367,13 +1336,17 @@ and (max-width : 667px) {
   /* --- PAGE 2 --- */
 
   .bigLosange2, .losange2{
-    color: #000;
-    border-color: #000;
-    width: 70%;
+    visibility: hidden;
+
+  }
+
+  .contentPage2{
+    visibility: visible;
   }
 
   .contentPage2 p{
     line-height: 2.5em;
+    width: 85%;
   }
 
   .contentPage2{
@@ -1424,41 +1397,6 @@ and (max-width : 667px) {
 
   /* --- PAGE 5 --- */
 
-  #page5{
-    width: 1490px;
-  }
-
-  .chart{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  .chart p {
-    align-self: center;
-    margin: 0 100px;
-    text-align: center;
-  }
-
-  .second p{
-    order: 1;
-  }
-
-  .first, .second, .third{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: auto;
-    margin: 90px;
-  }
-
-  .chart img{
-    width: 1500px;
-    height: 350px;
-    object-fit: cover;
-  }
-
 
   /* --- PAGE 6 --- */
   #page6{
@@ -1471,10 +1409,24 @@ and (max-width : 667px) {
     text-align: center;
   }
 
-  #page6 img{
+  #page6 img.fond{
     display: none;
   }
 
+  #page6 .containtCondition{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #page6 .ll{
+    width:100%;
+  }
+
+  #page6 .ll p{
+    width : 85%;
+    padding: 5%;
+    margin: 0 auto;
+  }
 
 
   /* --- PAGE 7 --- */
@@ -1486,6 +1438,15 @@ and (max-width : 667px) {
   .leftImg, .rightImg{
     display: none;
   }
+
+.voitureSlider{
+  width: 65%;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+}
 
 
   /* --- PAGE 8 --- */

@@ -8,6 +8,7 @@
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
     <!--
@@ -28,7 +29,7 @@
                   <li id="liMenu"><a href="#page1"><img class="logo" src="images/logo.png" alt="logo Service Prestige Developpement"/></a></li>
                   <li><a href="#page6">CONDITIONS</a></li>
                   <li><a href="#page7">VÉHICULES</a></li>
-                  <li><a href="#page8">POLITIQUE ÉCOLOGIQUE</a></li>
+                  <li><a href="#page8">CHARTE ÉCOLOGIQUE</a></li>
                   <li><a href="#page9">CONTACT</a></li>
                 </ul>
               </nav>
@@ -79,7 +80,7 @@
                 de vos appels d’offres ou encore de vous fournir les <strong>ressources</strong> dont vous avez besoin sur le territoire
                 national et bien plus encore.
               </p>
-              <a href="#"><p>En savoir plus</p></a>
+              <a id="moreInfos" href="#"><p>En savoir plus</p></a>
             </div>
           </div>
         </div>
@@ -91,7 +92,7 @@
       -->
       <div id="page3">
         <div class="titlePage3">
-          <div class="titleCondition">
+          <div class="titleDecoration">
             <img src="images/2black.png" alt="">
             <h2>PERFORMANCE : CDS</h2>
             <img src="images/2black.png" alt="">
@@ -122,7 +123,7 @@
       -->
       <div id="page4">
 
-        <div class="titleCondition">
+        <div class="titleDecoration">
           <img src="images/2white.png" alt="">
           <h2 class="title">NOTRE ÉQUIPE</h2>
           <img src="images/2white.png" alt="">
@@ -132,16 +133,16 @@
 
         <div class="container-equipe">
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff1">
-            <p>Nom</p>
+            <img src="images/Alassan - Responsable des opérations.png" alt="Responsable des opérations" class="staff1">
+            <p>Alassan : Responsable des opérations</p>
           </div>
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff2">
-            <p>Nom</p>
+            <img src="images/Bahya - Directrice SPDev.jpg" alt="Directrice SPDev" class="staff2">
+            <p>Bahya : Directrice SPDev</p>
           </div>
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff3">
-            <p>Nom</p>
+            <img src="images/Toufik - Responsable Back Office.jpg" alt="Responsable Back Office" class="staff3">
+            <p>Toufik : Responsable Back Office</p>
           </div>
         </div>
 
@@ -158,18 +159,19 @@
         </div>
 
       </div>
+      <!--
 
+            CINQUIÈME PAGE
 
-
-
-
+      -->
       <div id="page5">
-        <article class="perf">
-
-          <div class="titleCondition">
-            <img src="images/2black.png" alt="losange décoration">
-            <h2>NOTRE CHARTE QUALITÉ</h2>
-            <img src="images/2black.png" alt="losange décoration">
+        <div class="perf">
+          <div class="title">
+            <div class="titleDecoration">
+              <img src="images/2black.png" alt="losange décoration">
+              <h2>NOTRE CHARTE QUALITÉ</h2>
+              <img src="images/2black.png" alt="losange décoration">
+            </div>
           </div>
 
           <h3>
@@ -205,15 +207,20 @@
               <strong>Assurément la Qualité est notre maître mot…</strong>
             </p>
           </div>
-        </article>
+        </div>
       </div>
+      <!--
 
+            SIXIÈME PAGE
+
+      -->
       <div id="page6">
-
-        <div class="titleCondition">
-          <img src="images/2white.png" alt="">
-          <h2>CONDITIONS</h2>
-          <img src="images/2white.png" alt="">
+        <div class="title">
+          <div class="titleDecoration">
+            <img src="images/2white.png" alt="">
+            <h2>CONDITIONS</h2>
+            <img src="images/2white.png" alt="">
+          </div>
         </div>
 
         <div class="containtCondition">
@@ -242,10 +249,14 @@
           </div>
         </div>
       </div>
+      <!--
 
+            SEPTIÈME PAGE
+
+      -->
       <div id="page7">
 
-        <div class="titleCondition">
+        <div class="titleDecoration">
           <img src="images/2black.png" alt="">
           <h2>VÉHICULES ACCEPTÉS</h2>
           <img src="images/2black.png" alt="">
@@ -270,11 +281,15 @@
 
         </div>
       </div>
+      <!--
 
+            HUITIÈME PAGE
+
+      -->
       <div id="page8">
         <div class="containerPolitic">
           <div class="politique">
-            <div class="titleCondition">
+            <div class="titleDecoration">
               <img src="images/2green.png" alt="">
               <h2 id="titress">NOTRE CHARTE ÉCOLOGIQUE</h2>
               <img src="images/2green.png" alt="">
@@ -321,7 +336,11 @@
           </div>
         </div>
       </div>
+      <!--
 
+            NEUVIÈME PAGE
+
+      -->
       <div id="page9">
         <div class="formBloc">
         <div class="rejoignez">
@@ -345,6 +364,11 @@ Vous possédez l’une des voitures montrée ci-dessus ?</p>
           </form>
         </div>
       </div>
+      <!--
+
+            FOOTER
+
+      -->
       <footer>
          <div class="grostext">
            <div class="precis">

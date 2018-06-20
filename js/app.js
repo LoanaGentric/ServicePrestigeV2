@@ -139,12 +139,9 @@ overlay.addEventListener('click', function(e) {
 });
 
 
-// SLIDER PAGE 3
-
 
 // POP-UP
 
-<script type='text/javascript'>
 function myPopup() {
 
     var overlay = $('<div id="overlay"></div>');
@@ -166,4 +163,3 @@ function myPopup() {
     obj[0].addEventListener("click", myScript);
 
 }
-</script>
