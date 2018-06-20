@@ -386,8 +386,7 @@ ul.lang{
 }
 
 .articlePage3 p {
-  font-size: 20px;
-  font-weight: 300;
+  font-weight: lighter;
 }
 
 .articlePage3 .subtitlePage3 {
@@ -539,7 +538,7 @@ ul.lang{
 }
 
 #page6 .title{
-  padding: 6% 0;
+  padding: 6% 0 2% 0;
 }
 
 #page6 .containtCondition{
@@ -1299,8 +1298,8 @@ footer{
 }
 
 
-@media only screen
-and (min-width : 365px)
+@media screen
+and (min-width : 340px)
 and (max-width : 1067px) {
 
   /* --- HAMBURGER MENU --- */
@@ -1331,14 +1330,17 @@ and (max-width : 1067px) {
   /* --- PAGE 2 --- */
 
   .bigLosange2, .losange2{
-    color: #000;
-    border-color: #000;
-    width: 70%;
-    height: 100%;
+    visibility: hidden;
+
+  }
+
+  .contentPage2{
+    visibility: visible;
   }
 
   .contentPage2 p{
     line-height: 2.5em;
+    width: 85%;
   }
 
   .contentPage2{
@@ -1401,10 +1403,24 @@ and (max-width : 1067px) {
     text-align: center;
   }
 
-  #page6 img{
+  #page6 img.fond{
     display: none;
   }
 
+  #page6 .containtCondition{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #page6 .ll{
+    width:100%;
+  }
+
+  #page6 .ll p{
+    width : 85%;
+    padding: 5%;
+    margin: 0 auto;
+  }
 
 
   /* --- PAGE 7 --- */
@@ -1416,6 +1432,15 @@ and (max-width : 1067px) {
   .leftImg, .rightImg{
     display: none;
   }
+
+.voitureSlider{
+  width: 65%;
+}
+
+.center {
+  width: 80%;
+  margin: 0 auto;
+}
 
 
   /* --- PAGE 8 --- */

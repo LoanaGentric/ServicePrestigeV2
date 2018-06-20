@@ -132,16 +132,16 @@
 
         <div class="container-equipe">
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff1">
-            <p>Nom</p>
+            <img src="images/Alassan - Responsable des opérations.png" alt="Responsable des opérations" class="staff1">
+            <p>Alassan : Responsable des opérations</p>
           </div>
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff2">
-            <p>Nom</p>
+            <img src="images/Bahya - Directrice SPDev.jpg" alt="Directrice SPDev" class="staff2">
+            <p>Bahya : Directrice SPDev</p>
           </div>
           <div class="equipe">
-            <img src="images/homme.png" alt="homme" class="staff3">
-            <p>Nom</p>
+            <img src="images/Toufik - Responsable Back Office.jpg" alt="Responsable Back Office" class="staff3">
+            <p>Toufik : Responsable Back Office</p>
           </div>
         </div>
 
