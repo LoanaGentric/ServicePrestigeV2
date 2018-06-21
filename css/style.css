@@ -285,8 +285,9 @@ ul.lang{
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
   position: relative;
+
+  width: 100%;
 
 
   -ms-transform: rotate(-45deg); /* Internet Explorer */
@@ -310,6 +311,49 @@ ul.lang{
   text-align: justify;
   font-weight: lighter;
   line-height: 1.4em;
+}
+
+#page2 div.textPremier{
+  width: 70%;
+  height: 270px;
+}
+
+#page2 div.textP2{
+  display: flex;
+  justify-content: space-between;
+}
+
+#page2 div.slideP2-1 img, div.slideP2-2 img {
+  width: 30px;
+  margin-top: 28px;
+}
+
+#page2 div.slideP2-2 img{
+  transform: rotate(180deg);
+}
+
+#page2 div.points{
+  width: 100px;
+  height: 30px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#page2 div.points div.isActive{
+  border-radius: 50%;
+  border: 2px white solid;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+
+}
+#page2 div.points div.isNotActive{
+  border-radius: 50%;
+  border: 2px white solid;
+  width: 20px;
+  height: 20px;
+  background-color: white;
 }
 
 .bigLosange2{
