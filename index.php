@@ -123,7 +123,7 @@
         <div class="titlePage3">
           <div class="titleDecoration">
             <img src="images/2black.png" alt="">
-            <h2>PERFORMANCE</h2>
+            <h2>PERFORMANCE : CDS</h2>
             <img src="images/2black.png" alt="">
           </div>
           <h4>Chauffeur Driven Software</h4>
@@ -133,46 +133,16 @@
           <img src="images/phone.png" alt="phone">
           <div>
             <h3 id="cds">Le CDS</h3>
-
-
-            <div class="sliderColumn">
-              <div class="textP3">
-
-                <div class="slideP3-1">
-                  <img src="images/fleche.png" alt="">
-                </div>
-
-                <div class="textPremier">
-                  <p class="subtittlePage3">
-                    Service Prestige développement met à la disposition de tous ses affiliés un <strong>logiciel online performant.</strong>
-                  </p>
-                  <p class="txtPage3">
-                    Accessible depuis n’importe quel appareil, CDS permet notamment de gérer vos <strong>planning en temps réel</strong>, <strong>facturer vos clients</strong> ou générer des <strong>fiches de paie pour vos salariés</strong>. Mais aussi de rester en lien direct et permanent avec ses chauffeurs via à une application mobile géo localisée (IOS & Android)
-                  </p>
-                </div>
-
-              </div>
-
-              <div class="slideP3-2">
-                <img src="images/fleche.png" alt="">
-              </div>
-
-            </div>
-
-            <div class="points">
-              <div class="first isActive">
-
-              </div>
-              <div class="second isNotActive">
-
-              </div>
-
-            </div>
-            </div>
-
-
-
-
+            <p class="subtittlePage3">
+              Service Prestige développement met à la disposition de tous ses affiliés un <strong>logiciel online performant.</strong>
+            </p>
+            <p class="txtPage3">
+              Accessible depuis n’importe quel appareil, CDS permet notamment de gérer vos <strong>planning en temps réel</strong>, <strong>facturer vos clients</strong> ou générer des <strong>fiches de paie pour vos salariés</strong>. Mais aussi de rester en lien direct et permanent avec ses chauffeurs via à une application mobile géo localisée (IOS & Android)
+            </p>
+            <p class="txtPage3"></p>
+          </div>
+          <span class="rond"><span>
+          <spam class="rond"><span>
         </article>
       </div>
       <!--

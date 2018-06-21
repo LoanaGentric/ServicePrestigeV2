@@ -315,7 +315,6 @@ ul.lang{
 
 #page2 div.textPremier{
   width: 70%;
-  height: 270px;
 }
 
 #page2 div.textP2{
@@ -417,14 +416,14 @@ ul.lang{
   flex-direction: row;
 }
 
-.articlePage3 img:first-child {
+.articlePage3 img {
   width: 35%;
   object-fit: cover;
   padding: 0 10%;
 }
 
 .articlePage3 div {
-  /*width: 40%;*/
+  width: 40%;
   text-align: center;
   justify-content: center;
 }
@@ -440,59 +439,6 @@ ul.lang{
 #page3 h4{
   margin: 0;
 }
-
-
-
-#page3 div.textPremier{
-  width: 70%;
-  height: 270px;
-}
-
-#page3 div.textP3{
-  display: flex;
-  justify-content: space-between;
-}
-
-#page3 div.slideP3-1 img{
-  width: 30px;
-  /*margin-top: 28px;*/
-}
-
-#page3 div.slideP3-2 img{
-  transform: rotate(180deg);
-  width: 30px;
-}
-
-#page3 div.points{
-  width: 100px;
-  height: 30px;
-
-  display: flex;
-  justify-content: space-around;
-}
-
-#page3 div.points div.isActive{
-  border-radius: 50%;
-  border: 2px black solid;
-  width: 20px;
-  height: 20px;
-  background-color: grey;
-
-}
-#page3 div.points div.isNotActive{
-  border-radius: 50%;
-  border: 2px black solid;
-  width: 20px;
-  height: 20px;
-  background-color: white;
-}
-
-/*
-#page3 div.sliderColumn{
-  display: flex;
-  flex-direction: column;
-}*/
-
 
 /*
 --------------------------------- PAGE 4 --------------------------------
