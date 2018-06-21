@@ -139,4 +139,77 @@ overlay.addEventListener('click', function(e) {
 });
 
 
-// SLIDER PAGE 3
+// POP-UP
+
+function myPopup() {
+
+    var overlay = $('<div id="overlay"></div>');
+    $('.x').click(function() {
+        $('.popup').hide();
+        overlay.appendTo(document.body).remove();
+        return false;
+    });
+    var obj = document.getElementsByClassName('buton');
+
+    // alert("name");
+    myScript = function() {
+        overlay.show();
+        overlay.appendTo(document.body);
+        $('.popup').show();
+        return false;
+    };
+
+    obj[0].addEventListener("click", myScript);
+
+}
+
+// SLIDER PAGE 2 notre EXPERTISE début
+
+// flèche gauche (retour en arrière)
+
+function passageRetour(){
+
+  document.querySelector('.textP2-1').innerHTML = '- Un <strong>savoir-faire</strong> acquis sur de longues années auprès d’une <strong>clientèle d’exception</strong>';
+
+  document.querySelector('.textP2-2').innerHTML ='- Une <strong>centrale de réservation</strong> uniquement dédiée aux professionnels avec une équipe d’opérateurs experte dans l’organisation et la gestion de grands événements.'
+
+  document.querySelector('.textP2-3').innerHTML = 'Notre <strong>mission principale</strong> est d‘être <strong>à vos côtés</strong> pour vous soutenir dans la gestion de vos plannings, de vos appels d’offres ou encore de vous fournir les <strong>ressources</strong> dont vous avez besoin sur le territoire national et bien plus encore.'
+
+  document.querySelector("#page2 div.points div.first").className = "first isActive"
+
+  document.querySelector("#page2 div.points div.second").className = "second isNotActive"
+}
+
+
+
+document.querySelector('#page2 div.slideP2-1').addEventListener('click', function(e){
+  passageRetour()
+})
+
+document.querySelector('#page2 div.points div.first').addEventListener('click', function(e){
+  passageRetour()
+})
+
+// flèche droite (passage au text suivant)
+
+function passageSuivant(){
+  document.querySelector('.textP2-1').innerHTML = 'Service Prestige Développement c’est surtout un savoir-faire acquis sur de longues années auprès d’une clientèle d’exception. Nous gérons un réseau de plus 120 entreprises en France triées sur le volet, fédérant ainsi les acteurs offrant un Service de haute qualité, qui autrefois étaient réunis au sein de ce qu’on appelait alors  « la Grande Remise ».';
+
+  document.querySelector('.textP2-2').innerHTML = 'Service Prestige Développement c’est aussi une centrale de réservation gérant plusieurs dizaines de milliers de missions de transport annuellement pour le compte de ses affiliés. ';
+
+  document.querySelector('.textP2-3').innerHTML = '';
+
+  document.querySelector("#page2 div.points div.first").className = "first isNotActive"
+
+  document.querySelector("#page2 div.points div.second").className = "second isActive"
+}
+
+document.querySelector('#page2 div.slideP2-2').addEventListener('click', function(e){
+  passageSuivant()
+})
+
+document.querySelector('#page2 div.points div.second').addEventListener('click', function(e){
+  passageSuivant()
+})
+
+// SLIDER PAGE 2 notre EXPERTISE fin
