@@ -247,7 +247,7 @@
         <div class="title">
           <div class="titleDecoration">
             <img src="images/2white.png" alt="">
-            <h2>Les pré requis</h2>
+            <h2>CONDITIONS</h2>
             <img src="images/2white.png" alt="">
           </div>
         </div>
@@ -259,12 +259,12 @@
               Avoir un bon  niveau d’anglais et avoir passé avec succès notre test chauffeur.
             </p>
             <p class="text2">
-              Être en possession d’un véhicule conforme à notre charte qualité.
+              Etre en possession d’un véhicule conforme avec notre charte qualité.
             </p>
           </div>
           <div class="ll">
             <p class="text3">
-              Etre désireux d’offrir le meilleur des services à tous les passagers.
+              Etre désireux d’offrir le meilleur des services à tous ses passagers et rester dans la droite ligne de conduite de Service Prestige.
             </p>
             <img class="fond" src="images/fondCercle.png" alt="">
           </div>
@@ -273,7 +273,7 @@
               Respecter tous nos engagements qualité.
             </p>
             <p class="text5">
-              Etre titulaire d’une licence VTC et de fournir tous les documents administratifs règlementaires.
+              Etre titulaire d’une licence VTC et de fournir tous les documents administratifs règlementaires en bonne et due forme.
             </p>
           </div>
         </div>
