@@ -5,7 +5,7 @@
     <meta name="description" content="Service Prestige developpement le recrutement des VTC de luxe." />
     <meta name="keywords"  content="VTC,recrutemment,luxe,mercedes,tesla,voitures,conducteurs,chauffeurs,Service Prestige" />
     <title>Service Prestige Developpement</title>
-    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
