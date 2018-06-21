@@ -141,8 +141,7 @@
             </p>
             <p class="txtPage3"></p>
           </div>
-          <span class="rond"><span>
-          <spam class="rond"><span>
+  
         </article>
       </div>
       <!--
